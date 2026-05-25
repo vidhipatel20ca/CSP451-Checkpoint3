@@ -3,6 +3,8 @@
 ![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg?branch=main)
 ![CodeQL](https://github.com/OWNER/REPO/actions/workflows/codeql.yml/badge.svg?branch=main)
 
+GET /health returns service status and uptime information.
+
 Seed repository for the GitHub Actions CI/CD CheckPoint in CSP-451 — Computer Systems
 Projects. The pipeline lints, formats, tests with coverage thresholds, runs `npm audit`,
 and analyses the source with GitHub CodeQL on every push and pull request. Dependabot
